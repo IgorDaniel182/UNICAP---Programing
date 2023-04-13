@@ -1,0 +1,70 @@
+//Escreva um programa que simula uma calculadora simples. O programa deve ler dois
+//números reais, calcular e exibir o resultado da operação de acordo com a escolha do usuário descritas a seguir:
+//• Se a seleção do usuário for ‘a’: Calcular a soma dos dois números;
+//• Se a seleção do usuário for ‘b’: Calcular a diferença entre os dois números;
+//• Se a seleção do usuário for ‘c’: Calcular a multiplicação entre os dois números;
+//• Se a seleção do usuário for ‘d: Calcular a divisão do primeiro número pelo segundo;
+//• Se a seleção do usuário for ‘e’: Calcular o resto da divisão do primeiro número pelo segundo;
+//• Se a seleção do usuário for ‘f’: Calcular o primeiro número elevado ao segundo número;
+//• Se a seleção do usuário for ‘g’: Calcular a raiz quadrada do segundo número.
+
+
+programa {inclua biblioteca Matematica --> mat
+  funcao inicio() {
+    real nu1, nu2, resultado
+    cadeia opcao
+
+
+    escreva("Digite seu primeiro numero: ")
+    leia(nu1)
+    escreva("Digite seu primeiro numero: ")
+    leia(nu2)
+
+
+
+
+    escreva("Digitel a opção para calular esses numeros, sendo: \n")
+    escreva("a = soma;\n")
+    escreva("b = diferença; \n")
+    escreva("c = multiplicação; \n")
+    escreva("d = divisão do primeiro pelo segundo; \n")
+    escreva("e = resto da divisao do primeiro pelo segundo;\n")
+    escreva("f = primeiro número elevado ao segundo número;\n")
+    escreva("g = raiz quadrada do segundo número \n")
+    leia(opcao)
+
+
+    se(opcao == "a"){
+      resultado = nu1 + nu2      
+    }
+    se senao(opcao == "b"){
+      resultado = nu1 - nu2
+    }
+    se senao(opcao == "c"){
+      resultado = nu1 * nu2    
+    }
+    se senao( opcao == "d"){
+      resultado = nu1 / nu2    
+    }
+    se senao( opcao == "e"){
+      resultado = nu1 % nu2    
+    }
+    se senao(opcao == "f"){
+      resultado = mat.potencia(nu1,nu2)
+     
+    }
+    se senao(opcao == "g"){
+      resultado = nu2 * nu2
+     
+    }
+
+
+    escreva("Resultado : ", resultado)
+
+
+
+
+  }
+}
+
+
