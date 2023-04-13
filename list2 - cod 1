@@ -1,0 +1,58 @@
+//Escreva um programa que leia o número de identificação, as 3 notas obtidas por um
+//estudante nas 3 verificações de aprendizagem e a média dos exercícios que fazem
+//parte da avaliação. Em seguida, calcule a média de aproveitamento, usando a fórmula
+//seguinte:
+
+//MA = (nota1 + 2 ∙ nota2 + 3 ∙ nota3 + ME)/7.
+
+//A atribuição dos conceitos obedece a tabela abaixo:
+
+//Média de aproveitamento Conceito
+//Maior ou igual 9,0 e menor ou igual a 10,0 A
+//Maior ou igual a 7,5 e menor que 9,0 B
+//Maior ou igual a 6,0 e menor que 7,5 C
+//Maior ou igual a 4,0 e menor que 6,0 D
+//Menor que 4,0 E
+
+//O programa deve escrever: o número de identificação do estudante, suas notas, a média
+//dos exercícios, a média de aproveitamento, o conceito correspondente e a mensagem
+//‘Aprovado’se o conceito for A, B ou C, ‘Recuperação’ se o conceito for D e ‘Reprovado’
+//se o conceito for E.
+
+programa{
+	funcao inicio(){
+		inteiro id
+		real n1,n2,n3,media,ma
+
+		leia(n1)
+		leia(n2)
+		leia(n3)
+		leia(media)
+		leia(id)
+
+		ma = (n1 + (2*n2) + (3*n3) + media)/7
+
+		escreva("Aluno com ID: ", id, "\n Nota 1 = ", n1, "\n Nota 2 = ", n2, "\n Nota 3 = ", n3, "\n Média = ", media, "\nMedia de Aproveitamento = ", ma)
+
+		se(ma > 10 e ma >= 9){
+			escreva("Aprovado")
+		}
+		senao se(ma >= 7.5 e ma <9){
+			escreva("Aprovado")
+		}
+		senao se(ma >= 6 e ma <7.5){
+			escreva("Aprovado")
+		}
+		senao se(ma >= 4 e ma < 6){
+			escreva("Recuperação")
+		}
+		senao{
+			escreva("Reprovado")
+		}
+
+		
+		
+	}
+
+
+}
