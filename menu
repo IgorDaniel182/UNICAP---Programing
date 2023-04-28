@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    real lado, final
+    cadeia condicao = "sim"
+
+
+    enquanto(condicao == "sim"){
+    escreva("Digite o valor do lado do seu cubo: ")
+		leia(lado)	
+		final = volumecubo(lado)
+		escreva("O volume desse cubo é: ", final)
+    escreva("\nVocê deseja calcular outro cubo? ")
+    leia(condicao)
+    }
+    funcao real volumecubo(real x){
+      real resultado
+      resultado = x*x*x
+      retorne resultado
+  }
+}
