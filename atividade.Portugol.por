@@ -14,7 +14,7 @@ programa { inclua biblioteca Matematica --> mat
           
 
           menu()
-          escreva("Opção: ")
+          escreva("OpÃ§Ã£o: ")
           leia(opc)
 
           escolha(opc){
@@ -22,7 +22,7 @@ programa { inclua biblioteca Matematica --> mat
             escreva("Digite o lado do cubo: ")
             leia(lcubo)
             resultadoC = volumeC(lcubo)
-            escreva("O volume do cubo é: ", resultadoC)
+            escreva("O volume do cubo Ã©: ", resultadoC)
             pare
             caso 2:
             escreva("Digite a altura do paralelepipedo: ")
@@ -32,13 +32,13 @@ programa { inclua biblioteca Matematica --> mat
             escreva("Digite a largura do paralelepipedo: ")
             leia(larguraP)
             resultadoP = volumeP(alturaP, comprimentoP, larguraP)
-            escreva("O volume do paralelepipedo é: ", resultadoP)
+            escreva("O volume do paralelepipedo Ã©: ", resultadoP)
             pare 
             caso 3:
             escreva("Digite o raio da esfera: ")
             leia(raioE)
             resultadoE = volumeE(raioE)
-            escreva("O volume da esfera é: ", resultadoE)
+            escreva("O volume da esfera Ã©: ", resultadoE)
             pare
             caso 4:
             escreva("Digite o raio do cilindro: ")
@@ -46,7 +46,7 @@ programa { inclua biblioteca Matematica --> mat
             escreva("Digite a altura do cilindro: ")
             leia(alturaCI)
             resultadoCI = volumeCI(raioCI, alturaCI)
-            escreva("O volume do cilindro é ", resultadoCI)
+            escreva("O volume do cilindro Ã© ", resultadoCI)
             pare
             caso contrario: 
             escreva("Erro! ")
@@ -76,11 +76,11 @@ programa { inclua biblioteca Matematica --> mat
         resultado = mat.PI * (x * x ) * h
         retorne resultado
       }funcao cadeia menu(){
-        escreva("Opção 1 - Cubo\n")
-        escreva("Opção 2 - Paralelepipedo\n")
-        escreva("Opção 3 - Esfera\n")
-        escreva("Opção 4 - Cilindro\n")
-        escreva("Opção 0 - Sair \n")
+        escreva("OpÃ§Ã£o 1 - Cubo\n")
+        escreva("OpÃ§Ã£o 2 - Paralelepipedo\n")
+        escreva("OpÃ§Ã£o 3 - Esfera\n")
+        escreva("OpÃ§Ã£o 4 - Cilindro\n")
+        escreva("OpÃ§Ã£o 0 - Sair \n")
 
       }
 
