@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.math.MathContext;
 public class imcCalculator {
     public static void main(String[] args)
     {
@@ -18,7 +19,7 @@ public class imcCalculator {
     {
         double imc;
 
-        imc = peso / (altura * altura);
+        imc = peso / Math.pow(altura, 2);
 
         return imc;
     }
