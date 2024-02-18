@@ -12,5 +12,7 @@ public class transformaMinutosHora
         int newMinutos = minutos % 60;
 
         System.out.print(horas + " hora(s) e " + newMinutos + " minutos");
+        leitor.close();
+
     }    
 }

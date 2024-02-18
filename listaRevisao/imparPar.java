@@ -10,6 +10,8 @@ public class imparPar
         String resposta = verificaImparouPar(numero);
 
         System.out.print("O número é: " + resposta);
+        leitor.close();
+
     }
     public static String verificaImparouPar(int numero)
     {

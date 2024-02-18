@@ -13,9 +13,5 @@ public class trocaValores
 
         System.out.print(a + " " + b);
  
-    }   
-    public static void trocaValores(int num1, int num2)
-    {
-        
-    }
+    }       
 }

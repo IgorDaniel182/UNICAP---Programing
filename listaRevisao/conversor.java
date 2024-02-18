@@ -10,13 +10,14 @@ public class conversor
         double celsius = leitor.nextDouble();
         double fahrenheit;
 
-        fahrenheit = conversor(celsius);
+        fahrenheit = Conversor(celsius);
 
         System.out.println("Transformado de Celsius em Fahrenheit: " + fahrenheit);
+        leitor.close();
 
 
 	}
-    public static double conversor(double celsius){
+    public static double Conversor(double celsius){
         double fahrenheit;
         fahrenheit = celsius * (9/5) + 32;
         

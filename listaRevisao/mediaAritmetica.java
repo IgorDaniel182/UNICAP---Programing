@@ -12,6 +12,8 @@ public class mediaAritmetica
         double n3 = leitor.nextDouble();
 
         resultadoMedia(n1,n2,n3);
+        leitor.close();
+
 
     }
     public static void resultadoMedia(double n1, double n2, double n3)

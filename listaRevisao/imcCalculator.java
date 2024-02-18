@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.math.MathContext;
 public class imcCalculator {
     public static void main(String[] args)
     {
@@ -14,6 +13,8 @@ public class imcCalculator {
         double imc = imc(altura,peso);
 
         System.out.println("O seu IMC é: "+imc);
+        leitor.close();
+
     }
     public static double imc(double altura, double peso)
     {
