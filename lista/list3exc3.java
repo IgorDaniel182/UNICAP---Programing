@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class Main
+public class list3exc3
 {
 	public static void main(String[] args) {
 		int i, valorM,resultado;

@@ -1,0 +1,13 @@
+// //Faça um programa para receber um número inteiro qualquer e informar na tela se é par ou ímpar.
+// programa {
+//   funcao inicio() {
+//       real X
+//       escreva("Digite um numero: ")
+//       leia(X)
+//       se(X % 2 == 0){
+//         escreva("Seu numero é par!")
+//       }senao{
+//         escreva("Seu numero é ímpar!")
+//       }
+//   }
+// }

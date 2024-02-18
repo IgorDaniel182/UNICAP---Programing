@@ -6,7 +6,7 @@ Write your code in this editor and press "Run" button to execute it.
 
 *******************************************************************************/
 import java.util.Scanner; 
-public class Main
+public class lista1exc4
 
 {
 	public static void main(String[] args) {

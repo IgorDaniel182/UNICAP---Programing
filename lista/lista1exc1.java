@@ -1,10 +1,6 @@
-
-
-package com.mycompany.listajava;
-
 import java.util.Scanner;
 
-public class ListaJAVA {
+public class lista1exc1 {
 
     public static void main(String[] args) {
         Scanner dado;

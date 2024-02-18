@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class matriz{
+public class matrizintro{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         //declaração da matriz:([L][C])
