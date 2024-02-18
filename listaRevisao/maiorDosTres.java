@@ -3,13 +3,14 @@ public class maiorDosTres {
     public static void main(String[] args)
     {
         Scanner leitor = new Scanner(System.in);
-
         System.out.print("Digite o 1° número: ");
         double num1 = leitor.nextDouble();
         System.out.print("Digite o 2° número: ");
         double num2 = leitor.nextDouble();
         System.out.print("Digite o 3° número: ");
         double num3 = leitor.nextDouble();
+
+//Teria como fazer utilizando a biblioteca math, mas a lista pede para utilizar condicionais.
 
         MaiorNumero(num1,num2,num3);
 
