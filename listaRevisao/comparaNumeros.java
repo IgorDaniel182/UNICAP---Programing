@@ -12,6 +12,7 @@ public class comparaNumeros
         String resposta = comparaNumerosMaiorMenorIgual(num1,num2);
 
         System.out.print(resposta);
+        leitor.close();
 
     }
     public static String comparaNumerosMaiorMenorIgual(double num1, double num2)

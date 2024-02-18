@@ -15,6 +15,8 @@ public class calculadoraSimples {
 
         System.out.print("Resultado: "+ resultado);
 
+        leitor.close();
+
     }
     public static void menuCalculadora()
     {

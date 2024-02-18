@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.math.MathContext;
 public class areaCirculo {
     public static void main(String[] args)
     {
@@ -7,12 +6,13 @@ public class areaCirculo {
 
         System.out.print("Digite o raio do circulo: ");
         double raio = leitor.nextDouble();
-        double area = areaCirculo(raio);
+        double area = AreaCirculo(raio);
 
         System.out.print("A área do circulo com raio "+ raio + " é de " + area);
+        leitor.close();
 
     }
-    public static double areaCirculo(double raio)
+    public static double AreaCirculo(double raio)
     {
         double pi = Math.PI;
         double area = pi * Math.pow(raio, 2);
