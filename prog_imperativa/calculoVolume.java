@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class calculoVolume
 {
 	public static void main(String[] args) {
 		double acubo, vcubo,altura, largura, comprimento, vparalelepipedo,raio, vesfera, pi,vcilindro;
@@ -16,6 +16,8 @@ public class Main
 		    opcao = scanner.nextInt();
 		    System.out.println("");
 		    
+
+			//TO DO: colocar esses cases nas funções e chamar elas, pedindo os valores dentro da funcão, calculando e retornando valor
 		    switch(opcao){
 		        case 1: 
 		            System.out.print("Digite a aresta do cubo: ");
@@ -66,11 +68,7 @@ public class Main
 		    System.out.println("");
 		    
 		}while(opcao != 0 );
-		    
-		
-		
-		
-	    
+		scanner.close();	    
 	}
 	
 	public static double volumeCubo(double acubo){
