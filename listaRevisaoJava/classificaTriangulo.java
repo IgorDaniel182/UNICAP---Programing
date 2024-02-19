@@ -1,3 +1,4 @@
+package listaRevisaoJava;
 import java.util.Scanner;
 public class classificaTriangulo {
     public static void main(String [] args)

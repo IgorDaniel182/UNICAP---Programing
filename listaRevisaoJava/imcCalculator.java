@@ -1,3 +1,4 @@
+package listaRevisaoJava;
 import java.util.Scanner;
 public class imcCalculator {
     public static void main(String[] args)
