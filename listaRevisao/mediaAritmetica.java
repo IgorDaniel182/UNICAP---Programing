@@ -1,4 +1,3 @@
-package listaRevisaoJava;
 import java.util.Scanner;
 public class mediaAritmetica
 {
