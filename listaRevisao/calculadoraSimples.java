@@ -1,4 +1,3 @@
-package listaRevisaoJava;
 import java.util.Scanner;
 public class calculadoraSimples {
     public static void main(String[]args)
