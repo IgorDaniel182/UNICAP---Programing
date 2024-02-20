@@ -23,6 +23,8 @@ public class lista1exc4
 	        n1 = n1 * 3;
 	        System.out.print("O triplo do valor é: " + n1);
 	    }
+		dados.close();
+
 	        
 	}
 }

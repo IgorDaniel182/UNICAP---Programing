@@ -62,5 +62,6 @@ public class lista1exc6
 		}else{
 		    System.out.print("Error!");
 		}
+		dados.close();
 	}
 }

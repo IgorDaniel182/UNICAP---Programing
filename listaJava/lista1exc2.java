@@ -32,6 +32,7 @@ public class lista1exc2 {
         }else{
             System.out.print("O terceiro valor é menor que os 2 primeiros! ");
         }
+        dado.close();
     }
     
 }

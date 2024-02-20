@@ -21,5 +21,6 @@ public class list3exc3
 	    }else{
 	        System.out.print("A tabuada se limita de 1 a 10! ");
 	    }
+		scanner.close();
 	}
 }

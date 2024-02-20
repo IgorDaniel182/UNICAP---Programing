@@ -17,6 +17,6 @@ public class lista1exc1 {
             System.out.print("Seu numero é ímpar! ");
         }
         
-        
+        dado.close();
     }
 }

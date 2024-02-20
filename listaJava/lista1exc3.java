@@ -31,6 +31,8 @@ public class lista1exc3 {
             c = a * b;
             System.out.print("O resultado de C é: " + c + " multiplicação ");
         }
+        dados.close();
+
             
         
         

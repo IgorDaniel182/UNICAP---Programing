@@ -26,5 +26,7 @@ public class lista1exc5
 		    n = n + 8;
 		    System.out.print("Número Impar! Adicionando 8 ao valor... = " + n);
 		}
+		dados.close();
+
 	}
 }
