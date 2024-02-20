@@ -1,4 +1,4 @@
-package listaPoo_1.Alunos;
+package listaPOO.Alunos;
 
 public class Aluno {
     String nome;

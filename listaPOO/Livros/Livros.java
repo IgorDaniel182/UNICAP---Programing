@@ -1,4 +1,4 @@
-package listaPoo_1.Livros;
+package listaPOO.Livros;
 
 public class Livros {
     String titulo;
