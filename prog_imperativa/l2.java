@@ -1,3 +1,5 @@
+package prog_imperativa;
+
 public class l2 {
     public static void main(String args[]){
         int a[] = {4,2,12,16,6};

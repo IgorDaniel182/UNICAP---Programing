@@ -1,3 +1,4 @@
+package prog_imperativa;
 import java.util.Random;
 
 public class funcoes {
