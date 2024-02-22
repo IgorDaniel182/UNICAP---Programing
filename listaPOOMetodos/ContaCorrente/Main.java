@@ -17,6 +17,5 @@ public class Main {
         obj1.transferir(obj2, 1000);
         obj2.exibirSaldo();
         obj1.exibirSaldo();
-
     }
 }
