@@ -1,4 +1,3 @@
-import java.math.*;
 import java.util.Scanner;
 public class Planotelefonia {
     public static void main(String[] args) {

@@ -12,6 +12,7 @@ public class ImpostoRenda {
         imposto = calculaImposto(faixa, salarioAnual);
 
         System.out.println("Imposto a ser pago: "+ imposto);
+        leitor.close();
 
     }   
     static double calculaImposto(int escolha, double salario)
