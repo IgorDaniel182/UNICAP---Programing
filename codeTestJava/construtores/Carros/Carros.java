@@ -5,7 +5,7 @@ public class Carros {
     int ano;
     double kilometragem;
 
-    public Carros(String marca, int ano, double kilometragem)
+     Carros(String marca, int ano, double kilometragem)
     {
         this.marca = marca;
         this.kilometragem = kilometragem;
