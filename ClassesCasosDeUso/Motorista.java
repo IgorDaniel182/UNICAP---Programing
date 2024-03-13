@@ -5,12 +5,20 @@ public class Motorista {
     private String cpf;
     private String vehicle;
     private String typeVehicle;
-    private boolean travelAccept;
+    private boolean travelAccept = false;
     private float rating;
 
-    void setTravelAccept(boolean travelAccept)
+    void setTravelAccept(boolean response)
     {
-       this.travelAccept = travelAccept; 
+        if(response)
+        {
+            this.travelAccept = true;
+            System.out.println(this.travelAccept);
+        }else
+        {
+            this.travelAccept = false;
+            System.out.println(this.travelAccept);
+        }
     }
     void setId(Usuario user)
     {
@@ -63,7 +71,10 @@ public class Motorista {
         this.setTypeVehicle(typeVehicle);
     }
 
-    
+    void travelAccept()
+    {
+        this.setTravelAccept(true);
+    }
 
 
 }

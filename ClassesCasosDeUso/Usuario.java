@@ -51,11 +51,12 @@ class Usuario
         return placeDestiny;
     }
 
-    Usuario(String name, String cpf, String placeOrigin)
+    Usuario(String name, String cpf, String placeOrigin, String placeDestiny)
     {
         this.setName(name);
         this.setCpf(cpf);
         this.setPlaceOrigin(placeOrigin);
+        this.setPlaceDestiny(placeDestiny);
     }
 
     // void exibir()
